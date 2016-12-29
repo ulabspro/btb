@@ -1,0 +1,27 @@
+.folio-main {
+  &__row {
+    display: flex;
+
+    width: 100%;
+
+    align-items: center;
+    @include breakpoint($medium) {
+      flex-wrap: wrap;
+    }
+    justify-content: space-between;
+  }
+  &__column {
+    width: 50%;
+    height: auto;
+
+    @include breakpoint($medium) {
+      width: 100%;
+    }
+    &._triple {
+      width: 33.333333%;
+      @include breakpoint($medium) {
+        width: 100%;
+      }
+    }
+  }
+}

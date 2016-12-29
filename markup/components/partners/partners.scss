@@ -1,0 +1,33 @@
+.partners {
+  display: flex;
+
+  align-items: stretch;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  &__title {
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: rem-calc(60);
+    padding-left: rem-calc(60);
+
+    color: $orange;
+
+    font-family: $Gilroy-Medium;
+    font-size: rem-calc(24);
+    @include breakpoint($large) {
+      padding-left: rem-calc(30);
+    }
+  }
+}
+
+.partners-block {
+  border-bottom-color: transparent !important;
+
+  @extend .services-control-item;
+  &__icon {
+    @extend .services-control-item__icon;
+  }
+  &__title {
+    @extend .services-control-item__title;
+  }
+}

@@ -1,0 +1,46 @@
+.folio-title {
+  position: relative;
+  @include breakpoint($large) {
+    padding: rem-calc(30);
+  }
+
+  padding-left: rem-calc(60);
+
+  background-color: $white;
+  &__category {
+    @include breakpoint($xlarge) {
+      margin-bottom: rem-calc(20);
+
+      font-size: rem-calc(18);
+    }
+
+    margin-bottom: rem-calc(35);
+
+    color: $orange;
+
+    font-family: $Gilroy-Semibold;
+    font-size: rem-calc(24);
+  }
+  &__header {
+    @include breakpoint($xlarge) {
+      margin-bottom: rem-calc(50);
+
+      font-size: rem-calc(26);
+    }
+    @include breakpoint($large) {
+      font-size: rem-calc(24);
+    }
+
+    margin-bottom: rem-calc(60);
+
+    color: $blue;
+
+    font-size: rem-calc(48);
+  }
+  &__link {
+    @extend .orange-dashed-block;
+    @include breakpoint($large) {
+      font-size: rem-calc(18);
+    }
+  }
+}

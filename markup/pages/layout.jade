@@ -1,0 +1,32 @@
+doctype html
+html(class="no-js", lang="ru")
+
+    include ../components/head/head
+    include ../components/left-side/left-side
+    include ../components/menu/menu
+    include ../components/top-baner/top-baner
+    include ../components/services/services
+    include ../components/big-baner/big-baner
+    include ../components/folio-item/folio-item
+    include ../components/folio-main/folio-main
+    include ../components/folio-title/folio-title
+    include ../components/buro-text/buro-text
+    include ../components/partners/partners
+    include ../components/service-slider/service-slider
+    include ../components/folio-project/folio-project
+    include ../components/folio-text/folio-text
+    include ../components/footer/footer
+
+    head
+        +head(head.defaults)
+    body
+        main.main
+            block variables
+                - var leftSideTitle = 'Меню'
+            block aside
+                +left-side
+            block content
+                h1 Hello, I'm Layout! 
+
+        //- Main scripts. You can replace it, but I recommend you to leave it here
+        script(src='%=static=%js/main%=hash=%%=min=%.js')

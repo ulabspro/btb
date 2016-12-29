@@ -1,0 +1,50 @@
+.folio-text {
+  @include transition;
+  @include breakpoint($large) {
+    padding: rem-calc(30);
+  }
+
+  box-sizing: border-box;
+  padding: rem-calc(60);
+
+  border-right: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+  &:hover {
+    background-color: $blue;
+    .folio-text__title {
+      color: $white;
+    }
+    .folio-text__caption {
+      color: $white;
+    }
+  }
+  &__title {
+    @include transition;
+    @include breakpoint($large) {
+      font-size: rem-calc(18);
+    }
+    @include breakpoint($medium) {
+      font-size: rem-calc(24);
+    }
+
+    margin-bottom: rem-calc(40);
+
+    color: $blue;
+
+    font-family: $Gilroy-Medium;
+    font-size: rem-calc(24);
+    span {
+      @include transition;
+
+      color: $orange;
+    }
+  }
+  &__caption {
+    @include transition;
+
+    color: #a1a1a1;
+
+    font-family: $Gilroy-Medium;
+    font-size: rem-calc(16);
+  }
+}

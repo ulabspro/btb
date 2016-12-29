@@ -1,0 +1,12 @@
+mixin left-side(data)
+  .left-side
+    a(href="#" title="Бюро Технологий Безопасности").left-side__logo 
+      img(src="%=static=%images/minified-svg/logo.svg" alt="Бюро Технологий Безопасности")
+    
+    +menu
+
+    .left-side__title=leftSideTitle
+
+    .left-side-down
+      i.icon.icon-arrow-down.left-side-down__icon.js-scroll-top
+      .left-side-down__text Наверх

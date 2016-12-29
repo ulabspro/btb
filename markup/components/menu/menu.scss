@@ -1,0 +1,95 @@
+.menu {
+  color: $orange;
+  &:hover {
+    color: $white;
+  }
+  &__icon {
+    @include transition;
+    @include breakpoint($medium) {
+      margin-top: rem-calc(48);
+
+      font-size: rem-calc(20);
+    }
+
+    display: block;
+
+    margin-top: rem-calc(58);
+
+    font-size: rem-calc(30);
+  }
+}
+
+.menu-drop {
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  @include breakpoint($large) {
+    width: 30%;
+    padding-top: rem-calc(175);
+  }
+  @include breakpoint($medium) {
+    width: 50%;
+    padding-top: rem-calc(130);
+    padding-left: rem-calc(30);
+  }
+  @include breakpoint($small) {
+    width: 60%;
+  }
+  @include transition;
+
+  visibility: hidden;
+
+  box-sizing: border-box;
+  width: 20.83%;
+  height: 100%;
+  padding-top: rem-calc(160);
+  padding-left: rem-calc(60);
+
+  opacity: 0;
+  background-color: $blue;
+  &._active {
+    left: 9.72%;
+    @include breakpoint($large) {
+      left: 15.625%;
+    }
+
+    visibility: visible;
+
+    opacity: 1;
+  }
+  &:after {
+    position: absolute;
+    top: 0;
+    right: -40px;
+
+    width: 40px;
+    height: 100%;
+
+    content: "";
+
+    background: url(%=static=%assets/menu/shadow.png) repeat-y;
+  }
+  &__item {
+    @include breakpoint($medium) {
+      font-size: rem-calc(18);
+    }
+    @include transition;
+
+    display: block;
+
+    margin-bottom: rem-calc(25);
+
+    text-align: left;
+    text-decoration: none;
+
+    color: $white;
+
+    font-size: rem-calc(24);
+    line-height: 1;
+    &:hover,
+    &._active {
+      color: $orange;
+    }
+  }
+}

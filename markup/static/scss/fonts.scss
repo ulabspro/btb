@@ -1,0 +1,8 @@
+@include font-face(Gilroy-Regular, "../fonts/Gilroy-Regular");
+$Gilroy-Regular: 'Gilroy-Regular', Helvetica, Arial, sans-serif;
+
+@include font-face(Gilroy-Medium, "../fonts/Gilroy-Medium");
+$Gilroy-Medium: 'Gilroy-Medium', Helvetica, Arial, sans-serif;
+
+@include font-face(Gilroy-Semibold, "../fonts/Gilroy-Semibold");
+$Gilroy-Semibold: 'Gilroy-Semibold', Helvetica, Arial, sans-serif;

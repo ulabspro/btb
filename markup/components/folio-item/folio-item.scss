@@ -1,0 +1,83 @@
+.folio-item {
+  position: relative;
+
+  width: 100%;
+
+  background-color: $blue;
+  &:hover {
+    .folio-item__title,
+    .folio-item__object {
+      color: rgba($white, 1);
+      span {
+        color: $orange;
+      }
+    }
+    .folio-item__image {
+      img {
+        opacity: .3;
+      }
+    }
+  }
+  &__content {
+    z-index: 2;
+    @include breakpoint($xlarge) {
+      padding: rem-calc(60);
+    }
+    @include breakpoint($large) {
+      padding: rem-calc(30);
+    }
+    @include absolute-center;
+
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding-top: rem-calc(85);
+    padding-right: rem-calc(60);
+    padding-bottom: rem-calc(90);
+    padding-left: rem-calc(60);
+  }
+  &__title {
+    @extend .transparent-link;
+    @include breakpoint($xlarge) {
+      font-size: rem-calc(26);
+    }
+    @include breakpoint($large) {
+      font-size: rem-calc(20);
+    }
+
+    font-size: rem-calc(48);
+    span {
+      @extend .transparent-link;
+      @include transition;
+    }
+  }
+  &__object {
+    position: absolute;
+    bottom: rem-calc(90);
+    @extend .transparent-link;
+    @include breakpoint($large) {
+      bottom: rem-calc(30);
+
+      font-size: rem-calc(16);
+    }
+
+    font-family: $Gilroy-Medium;
+    font-size: rem-calc(18);
+    span {
+      @extend .transparent-link;
+      @include transition;
+    }
+  }
+  &__image {
+    img {
+      @include transition;
+
+      display: block;
+
+      width: 100%;
+      height: auto;
+
+      opacity: .6;
+    }
+  }
+}

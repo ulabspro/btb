@@ -1,0 +1,109 @@
+.left-side {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  @include breakpoint($large) {
+    width: 15.625%;
+  }
+
+  width: 9.72%;
+  height: 100%;
+
+  text-align: center;
+
+  background-color: $blue;
+  &__logo {
+    @include breakpoint($large) {
+      width: 60%;
+    }
+    @include breakpoint($medium) {
+      width: 70%;
+    }
+
+    display: block;
+
+    width: 42.86%;
+    margin: rem-calc(48) auto 0;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  &__title {
+    @include breakpoint($medium) {
+      font-size: rem-calc(18);
+    }
+    @include breakpoint($small) {
+      margin-left: -3px;
+
+      white-space: nowrap;
+
+      font-size: rem-calc(16);
+    }
+
+    display: inline-block;
+
+    margin-top: rem-calc(60);
+
+    transform: rotate(-90deg);
+    text-transform: none;
+
+    color: $white;
+
+    font-size: rem-calc(24);
+  }
+}
+
+.left-side-down {
+  bottom: rem-calc(50);
+  @include horizontal-center;
+
+  width: 100%;
+  &__icon {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    @include breakpoint($medium) {
+      font-size: rem-calc(21);
+    }
+    @include transition(.4s);
+
+    margin: auto;
+
+    color: $white;
+
+    font-size: rem-calc(27);
+    line-height: 0;
+    &._active {
+      transform: rotate(-180deg);
+      &:hover {
+        opacity: .5;
+        + .left-side-down__text {
+          visibility: visible;
+
+          opacity: 1;
+        }
+      }
+    }
+  }
+  &__text {
+    bottom: rem-calc(45);
+    @include breakpoint($medium) {
+      font-size: rem-calc(10);
+    }
+    @include horizontal-center;
+    @include transition;
+
+    visibility: hidden;
+
+    text-transform: uppercase;
+
+    opacity: 0;
+    color: rgba($white, .5);
+
+    font-size: rem-calc(12);
+  }
+}

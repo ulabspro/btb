@@ -1,0 +1,30 @@
+mixin service-slider(data)
+  .service-slider.js-tabs
+    .js-tabs-full
+      .js-tabs-full-item._active
+        +top-baner
+      .js-tabs-full-item
+        +top-baner
+      .js-tabs-full-item
+        +top-baner
+
+    .services-control.js-tabs-control
+      .services-control-item.js-tabs-control-item._active
+        i.icon.icon-shield.services-control-item__icon
+        .services-control-item__title Проектирование <br>документации
+
+      .services-control-item.js-tabs-control-item
+        i.icon.icon-camera.services-control-item__icon
+        .services-control-item__title Охранные <br>системы
+
+      .services-control-item.js-tabs-control-item
+        i.icon.icon-signalization.services-control-item__icon
+        .services-control-item__title Специализированная <br>пожарная охрана
+
+    .js-tabs-full
+      .js-tabs-full-item._active
+        +buro-text
+      .js-tabs-full-item
+        +buro-text
+      .js-tabs-full-item
+        +buro-text

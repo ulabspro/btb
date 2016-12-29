@@ -1,0 +1,61 @@
+.big-baner {
+  @extend .top-baner;
+  &__image {
+    @extend .top-baner__image;
+  }
+  &__content {
+    @extend .top-baner__content;
+  }
+  &__bottom {
+    bottom: rem-calc(60);
+
+    box-sizing: border-box;
+    width: 100%;
+    padding-right: rem-calc(60);
+    padding-left: rem-calc(65);
+
+    @include breakpoint($medium) {
+      bottom: inherit;
+
+      padding-right: rem-calc(30);
+      padding-left: rem-calc(30);
+
+      @include absolute-center;
+    }
+    @include horizontal-center;
+  }
+  &__category {
+    margin-bottom: rem-calc(35);
+
+    color: $orange;
+
+    font-family: $Gilroy-Medium;
+    font-size: rem-calc(24);
+
+    @include breakpoint($medium) {
+      text-align: left;
+
+      font-size: rem-calc(16);
+    }
+  }
+  &__title {
+    margin-bottom: rem-calc(75);
+
+    color: $white;
+
+    font-size: rem-calc(48);
+
+    @include breakpoint($medium) {
+      margin-bottom: rem-calc(40);
+
+      font-size: rem-calc(22);
+      line-height: rem-calc(36);
+    }
+  }
+  &__link {
+    @extend .white-dashed-block;
+    @include breakpoint($medium) {
+      font-size: rem-calc(18);
+    }
+  }
+}
