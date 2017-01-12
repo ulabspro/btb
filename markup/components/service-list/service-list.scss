@@ -1,0 +1,44 @@
+.service-list {
+  padding-top: rem-calc(115);
+  padding-right: rem-calc(120);
+  padding-bottom: rem-calc(120);
+  padding-left: rem-calc(65);
+}
+
+.service-list-item {
+  @include cf;
+
+  margin-bottom: rem-calc(75);
+
+  font-family: $Gilroy-Medium;
+  &__left {
+    position: relative;
+
+    box-sizing: border-box;
+    width: 55.6%;
+    padding-left: rem-calc(60);
+
+    color: $blue;
+
+    font-size: rem-calc(30);
+    &:before {
+      position: absolute;
+      left: 0;
+
+      color: $orange;
+
+      font-size: rem-calc(30);
+    }
+  }
+  &__right {
+    float: right;
+
+    width: 33.18%;
+    margin-top: rem-calc(-20);
+
+    color: #5d5d5d;
+
+    font-size: rem-calc(20);
+    line-height: rem-calc(30);
+  }
+}

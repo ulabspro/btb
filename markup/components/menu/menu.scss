@@ -5,7 +5,7 @@
   }
   &__icon {
     @include transition;
-    @include breakpoint($medium) {
+    @media screen and (max-width: 480px) {
       margin-top: rem-calc(48);
 
       font-size: rem-calc(20);
@@ -24,16 +24,16 @@
   z-index: 0;
   top: 0;
   left: 0;
-  @include breakpoint($large) {
+  @media screen and (max-width: 800px) {
     width: 30%;
     padding-top: rem-calc(175);
   }
-  @include breakpoint($medium) {
+  @media screen and (max-width: 480px) {
     width: 50%;
     padding-top: rem-calc(130);
     padding-left: rem-calc(30);
   }
-  @include breakpoint($small) {
+  @media screen and (max-width: 320px) {
     width: 60%;
   }
   @include transition;
@@ -50,7 +50,7 @@
   background-color: $blue;
   &._active {
     left: 9.72%;
-    @include breakpoint($large) {
+    @media screen and (max-width: 800px) {
       left: 15.625%;
     }
 
@@ -71,7 +71,7 @@
     background: url(%=static=%assets/menu/shadow.png) repeat-y;
   }
   &__item {
-    @include breakpoint($medium) {
+    @media screen and (max-width: 480px) {
       font-size: rem-calc(18);
     }
     @include transition;

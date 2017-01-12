@@ -8,13 +8,13 @@
 }
 
 .right-side {
-  @include breakpoint($large) {
+  @media screen and (max-width: 800px) {
     width: 84.375%;
   }
 
   float: right;
 
-  width: 90.28%;
+  width: calc(100% - 140px);
 }
 
 .transparent-link {

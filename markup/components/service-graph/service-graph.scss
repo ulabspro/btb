@@ -1,0 +1,397 @@
+.service-graph {
+  padding-top: rem-calc(110);
+  padding-right: rem-calc(65);
+  padding-bottom: rem-calc(110);
+  padding-left: rem-calc(65);
+
+  background-color: $orange;
+  @media screen and (max-width: 900px) {
+    padding-right: rem-calc(40);
+    padding-left: rem-calc(40);
+  }
+  @media screen and (max-width: 770px) {
+    padding-right: rem-calc(24);
+    padding-left: rem-calc(24);
+  }
+  @media screen and (max-width: 750px) {
+    padding-right: rem-calc(40);
+    padding-left: rem-calc(40);
+  }
+  @media screen and (max-width: 420px) {
+    padding-top: rem-calc(60);
+    padding-right: rem-calc(15);
+    padding-bottom: rem-calc(60);
+    padding-left: rem-calc(15);
+  }
+  &__wrapper {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    @media screen and (max-width: 1180px) {
+      width: 767px;
+      margin: auto;
+
+      flex-wrap: wrap;
+      justify-content: flex-start;
+    }
+    @media screen and (max-width: 1020px) {
+      width: 692px;
+    }
+    @media screen and (max-width: 870px) {
+      width: 612px;
+    }
+    @media screen and (max-width: 770px) {
+      width: 591px;
+    }
+    @media screen and (max-width: 750px) {
+      display: block;
+
+      width: 100%;
+    }
+  }
+}
+
+.service-graph-item {
+  position: relative;
+  @include transition;
+
+  border: 1px solid rgba($white, .6);
+  border-radius: 50%;
+
+  font-family: $Gilroy-Medium;
+
+  flex-shrink: 0;
+  &:before,
+  &:after {
+    @include vertical-center;
+
+    width: 11px;
+    height: 11px;
+
+    content: "";
+
+    border-radius: 50%;
+    background-color: $white;
+  }
+  &:before {
+    left: -6px;
+    @media screen and (max-width: 750px) {
+      display: none;
+    }
+  }
+  &:after {
+    right: -6px;
+
+    display: none;
+    @media screen and (max-width: 750px) {
+      top: inherit;
+      right: inherit;
+      bottom: -6px;
+      @include horizontal-center;
+
+      display: block;
+    }
+  }
+  &:last-child {
+    &:after {
+      display: block;
+    }
+  }
+  &__title {
+    @include absolute-center;
+
+    color: $white;
+
+    font-size: rem-calc(18);
+    @media screen and (max-width: 1400px) {
+      font-size: rem-calc(16);
+    }
+    @media screen and (max-width: 1020px) {
+      font-size: rem-calc(14);
+    }
+    &._bottom {
+      top: inherit;
+      bottom: rem-calc(40);
+      @media screen and (max-width: 1400px) {
+        bottom: rem-calc(30);
+      }
+      @media screen and (max-width: 750px) {
+        display: none;
+      }
+    }
+  }
+  &__caption {
+    top: 296px;
+    @include transition;
+    @include horizontal-center;
+
+    visibility: hidden;
+
+    width: 66%;
+
+    text-align: center;
+
+    opacity: 0;
+    color: $white;
+
+    font-size: rem-calc(14);
+    @media screen and (max-width: 1440px) {
+      top: 256px;
+    }
+    @media screen and (max-width: 1350px) {
+      width: 80%;
+    }
+    @media screen and (max-width: 1180px) {
+      z-index: 99;
+      top: 226px;
+
+      width: 100%;
+      padding: 10px;
+
+      background-color: $orange;
+    }
+    @media screen and (max-width: 750px) {
+      right: -263px;
+      left: inherit;
+      @include vertical-center;
+
+      visibility: visible;
+
+      text-align: left;
+
+      opacity: 1;
+    }
+    @media screen and (max-width: 420px) {
+      right: -190px;
+
+      width: 100%;
+      max-width: 133px;
+    }
+    &:before,
+    &:after {
+      @include horizontal-center;
+
+      content: "";
+
+      background-color: $white;
+    }
+    &:before {
+      top: -120px;
+
+      width: 1px;
+      height: 100px;
+      @media screen and (max-width: 750px) {
+        left: -120px;
+        @include vertical-center;
+
+        width: 120px;
+        height: 1px;
+      }
+    }
+    &:after {
+      top: -20px;
+
+      width: 50px;
+      height: 1px;
+      @media screen and (max-width: 750px) {
+        left: 0;
+        @include vertical-center;
+
+        width: 1px;
+        height: 50px;
+      }
+    }
+    &._top {
+      top: inherit;
+      bottom: 296px;
+      @media screen and (max-width: 1440px) {
+        bottom: 256px;
+      }
+      @media screen and (max-width: 750px) {
+        right: -260px;
+        bottom: inherit;
+        left: inherit;
+        @include vertical-center;
+
+        visibility: visible;
+
+        text-align: left;
+
+        opacity: 1;
+      }
+      @media screen and (max-width: 420px) {
+        right: -197px;
+
+        width: 133px;
+      }
+      &:after {
+        top: inherit;
+        bottom: -20px;
+        @media screen and (max-width: 750px) {
+          bottom: inherit;
+        }
+      }
+      &:before {
+        top: inherit;
+        bottom: -120px;
+        @media screen and (max-width: 750px) {
+          bottom: inherit;
+          left: -125px;
+
+          width: 125px;
+        }
+      }
+    }
+  }
+  &._small {
+    width: 246px;
+    height: 246px;
+    @media screen and (max-width: 1700px) {
+      width: 221px;
+      height: 221px;
+    }
+    @media screen and (max-width: 1500px) {
+      width: 196px;
+      height: 196px;
+    }
+    @media screen and (max-width: 1350px) {
+      width: 171px;
+      height: 171px;
+    }
+    @media screen and (max-width: 1020px) {
+      width: 146px;
+      height: 146px;
+    }
+    @media screen and (max-width: 870px) {
+      width: 131px;
+      height: 131px;
+    }
+    &:hover {
+      .service-graph-item__caption {
+        visibility: visible;
+
+        opacity: 1;
+      }
+    }
+    @media screen and (max-width: 1180px) {
+      &:nth-child(3) {
+        &:after {
+          top: inherit;
+          bottom: -6px;
+          @include horizontal-center;
+
+          display: block;
+        }
+      }
+    }
+  }
+  &._inside {
+    width: 236px;
+    height: 236px;
+    @media screen and (max-width: 1700px) {
+      width: 211px;
+      height: 211px;
+    }
+    @media screen and (max-width: 1500px) {
+      width: 186px;
+      height: 186px;
+    }
+    @media screen and (max-width: 1350px) {
+      width: 161px;
+      height: 161px;
+    }
+    @media screen and (max-width: 1020px) {
+      width: 136px;
+      height: 136px;
+    }
+    @media screen and (max-width: 870px) {
+      width: 121px;
+      height: 121px;
+    }
+    &:hover {
+      .service-graph-item__caption {
+        visibility: visible;
+
+        opacity: 1;
+      }
+    }
+    &:last-child {
+      &:after {
+        display: none;
+        @media screen and (max-width: 750px) {
+          display: block;
+        }
+      }
+    }
+  }
+  &._big {
+    display: flex;
+
+    width: 472px;
+    height: 472px;
+
+    align-items: center;
+    justify-content: center;
+    @media screen and (max-width: 1700px) {
+      width: 420px;
+      height: 420px;
+    }
+    @media screen and (max-width: 1500px) {
+      width: 372px;
+      height: 372px;
+    }
+    @media screen and (max-width: 1350px) {
+      width: 322px;
+      height: 322px;
+    }
+    @media screen and (max-width: 1020px) {
+      width: 272px;
+      height: 272px;
+    }
+    @media screen and (max-width: 870px) {
+      width: 242px;
+      height: 242px;
+    }
+    @media screen and (max-width: 750px) {
+      width: 133px;
+      height: auto;
+
+      border: 0;
+
+      flex-wrap: wrap;
+    }
+    &:before,
+    &:after {
+      display: none;
+    }
+  }
+}
+
+.service-graph-item-last-group {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  @media screen and (max-width: 1180px) {
+    box-sizing: border-box;
+    width: 497px;
+    margin-left: 270px;
+
+    justify-content: flex-start;
+  }
+  @media screen and (max-width: 1020px) {
+    width: 423px;
+    margin-left: 235px;
+  }
+  @media screen and (max-width: 870px) {
+    width: 377px;
+    margin-left: 214px;
+  }
+  @media screen and (max-width: 750px) {
+    display: block;
+
+    width: auto;
+    margin-left: 0;
+  }
+}

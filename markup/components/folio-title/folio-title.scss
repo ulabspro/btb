@@ -1,6 +1,6 @@
 .folio-title {
   position: relative;
-  @include breakpoint($large) {
+  @media screen and (max-width: 800px) {
     padding: rem-calc(30);
   }
 
@@ -8,7 +8,7 @@
 
   background-color: $white;
   &__category {
-    @include breakpoint($xlarge) {
+    @media screen and (max-width: 1024px) {
       margin-bottom: rem-calc(20);
 
       font-size: rem-calc(18);
@@ -22,12 +22,12 @@
     font-size: rem-calc(24);
   }
   &__header {
-    @include breakpoint($xlarge) {
+    @media screen and (max-width: 1024px) {
       margin-bottom: rem-calc(50);
 
       font-size: rem-calc(26);
     }
-    @include breakpoint($large) {
+    @media screen and (max-width: 800px) {
       font-size: rem-calc(24);
     }
 
@@ -39,7 +39,7 @@
   }
   &__link {
     @extend .orange-dashed-block;
-    @include breakpoint($large) {
+    @media screen and (max-width: 800px) {
       font-size: rem-calc(18);
     }
   }

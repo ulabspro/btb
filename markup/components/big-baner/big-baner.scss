@@ -14,7 +14,7 @@
     padding-right: rem-calc(60);
     padding-left: rem-calc(65);
 
-    @include breakpoint($medium) {
+    @media screen and (max-width: 480px) {
       bottom: inherit;
 
       padding-right: rem-calc(30);
@@ -32,7 +32,7 @@
     font-family: $Gilroy-Medium;
     font-size: rem-calc(24);
 
-    @include breakpoint($medium) {
+    @media screen and (max-width: 480px) {
       text-align: left;
 
       font-size: rem-calc(16);
@@ -45,7 +45,7 @@
 
     font-size: rem-calc(48);
 
-    @include breakpoint($medium) {
+    @media screen and (max-width: 480px) {
       margin-bottom: rem-calc(40);
 
       font-size: rem-calc(22);
@@ -54,7 +54,7 @@
   }
   &__link {
     @extend .white-dashed-block;
-    @include breakpoint($medium) {
+    @media screen and (max-width: 480px) {
       font-size: rem-calc(18);
     }
   }

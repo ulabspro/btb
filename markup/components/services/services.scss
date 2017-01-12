@@ -20,7 +20,7 @@
 }
 
 .services-full-item {
-  @include breakpoint($medium) {
+  @media screen and (max-width: 480px) {
     padding-top: rem-calc(60);
     padding-bottom: rem-calc(60);
     padding-left: rem-calc(30);
@@ -36,7 +36,7 @@
   background-position: right center;
   background-size: contain;
   &__content {
-    @include breakpoint($medium) {
+    @media screen and (max-width: 480px) {
       width: 100%;
     }
 
@@ -46,7 +46,7 @@
     width: 90.3%;
   }
   &__category {
-    @include breakpoint($medium) {
+    @media screen and (max-width: 480px) {
       font-size: rem-calc(18);
     }
 
@@ -59,13 +59,13 @@
     line-height: 1;
   }
   &__title {
-    @include breakpoint($medium) {
+    @media screen and (max-width: 480px) {
       margin-bottom: rem-calc(40);
 
       font-size: rem-calc(25);
       line-height: rem-calc(32);
     }
-    @include breakpoint($small) {
+    @media screen and (max-width: 320px) {
       font-size: rem-calc(22);
     }
 
@@ -77,7 +77,7 @@
     line-height: 1;
   }
   &__caption {
-    @include breakpoint($medium) {
+    @media screen and (max-width: 480px) {
       margin-bottom: rem-calc(40);
 
       font-size: rem-calc(17);
@@ -107,7 +107,7 @@
 }
 
 .services-control-item {
-  @include breakpoint($medium) {
+  @media screen and (max-width: 480px) {
     position: relative;
 
     min-height: 120px;
@@ -149,7 +149,7 @@
   }
   &__icon {
     @include transition;
-    @include breakpoint($medium) {
+    @media screen and (max-width: 480px) {
       @include absolute-center;
 
       font-size: rem-calc(50);
@@ -159,10 +159,10 @@
     font-size: rem-calc(76);
   }
   &__title {
-    @include breakpoint($large) {
+    @media screen and (max-width: 800px) {
       font-size: rem-calc(18);
     }
-    @include breakpoint($medium) {
+    @media screen and (max-width: 480px) {
       display: none;
     }
     @include transition;

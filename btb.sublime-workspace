@@ -4,16 +4,156 @@
 		"selected_items":
 		[
 			[
+				"padd",
+				"padding"
+			],
+			[
 				"marign",
-				"margin-top"
+				"margin-left"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"te",
+				"text-align"
 			],
 			[
 				"margin",
 				"margin-left"
 			],
 			[
-				"pad",
-				"padding-bottom"
+				"in",
+				"inherit"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"fol",
+				"folio-text"
+			],
+			[
+				"js",
+				"js-tabs-full-item\t(services.scss)"
+			],
+			[
+				"ser",
+				"service-slider"
+			],
+			[
+				"par",
+				"partners-block__icon"
+			],
+			[
+				"part",
+				"partners-block__title"
+			],
+			[
+				"re",
+				"rem-calc"
+			],
+			[
+				"block",
+				"blockquote"
+			],
+			[
+				"vis",
+				"visibility"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"ho",
+				"horizontal"
+			],
+			[
+				"lef",
+				"left-side"
+			],
+			[
+				"scroll",
+				"scrollTop"
+			],
+			[
+				"con",
+				"console.log"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"fn",
+				"font-size"
+			],
+			[
+				"foo",
+				"footer-contacts"
+			],
+			[
+				"fo",
+				"footer-contacts"
+			],
+			[
+				"tra",
+				"transparent"
+			],
+			[
+				"top",
+				"top-baner"
+			],
+			[
+				"tp",
+				"top-baner"
+			],
+			[
+				"exte",
+				"extend\t(top-baner.scss)"
+			],
+			[
+				"js-tabs",
+				"js-tabs-full-item"
+			],
+			[
+				"se",
+				"services-control-item"
+			],
+			[
+				"white-",
+				"white-dashed-block\t(top-baner.scss)"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"blo",
+				"block"
 			],
 			[
 				"inli",
@@ -22,14 +162,6 @@
 			[
 				"backgr",
 				"background-position"
-			],
-			[
-				"fon",
-				"font-size"
-			],
-			[
-				"top",
-				"top-bar"
 			],
 			[
 				"vi",
@@ -50,10 +182,6 @@
 			[
 				"visi",
 				"visible"
-			],
-			[
-				"text",
-				"text-transform"
 			],
 			[
 				"js-cha",
@@ -84,14 +212,6 @@
 				"input-group"
 			],
 			[
-				"marg",
-				"margin-bottom"
-			],
-			[
-				"re",
-				"relative"
-			],
-			[
 				"we",
 				"we-recomended__icon"
 			],
@@ -110,10 +230,6 @@
 			[
 				"advertise-p",
 				"advertise-packets-block"
-			],
-			[
-				"padd",
-				"padding"
 			],
 			[
 				"f",
@@ -140,14 +256,6 @@
 				"expert-articles\t(expert-articles.jade)"
 			],
 			[
-				"te",
-				"text-align"
-			],
-			[
-				"in",
-				"inherit"
-			],
-			[
 				"arr",
 				"arrow-left"
 			],
@@ -160,20 +268,12 @@
 				"slidesToShow"
 			],
 			[
-				"con",
-				"contents__item"
-			],
-			[
 				"art",
 				"article-video"
 			],
 			[
 				"site",
 				"sitemap-page-item"
-			],
-			[
-				"fo",
-				"footer-menu"
 			],
 			[
 				"margi",
@@ -256,10 +356,6 @@
 				"align-bottom"
 			],
 			[
-				"back",
-				"background-color"
-			],
-			[
 				"mi",
 				"middle"
 			],
@@ -304,10 +400,6 @@
 				"show-more"
 			],
 			[
-				"fn",
-				"font-weight"
-			],
-			[
 				"margn",
 				"margin-bottom"
 			],
@@ -344,14 +436,6 @@
 				"single-content"
 			],
 			[
-				"block",
-				"blockquote\t(single-content.jade)"
-			],
-			[
-				"blo",
-				"blockquote"
-			],
-			[
 				"bord",
 				"border-bottom"
 			],
@@ -364,16 +448,8 @@
 				"small-12\t(index.jade)"
 			],
 			[
-				"tex",
-				"text-transform"
-			],
-			[
 				"exp",
 				"expert\t(experts-list.jade)"
-			],
-			[
-				"tp",
-				"tips-hours"
 			],
 			[
 				"tip",
@@ -382,10 +458,6 @@
 			[
 				"ar",
 				"article-block"
-			],
-			[
-				"tra",
-				"transparent"
 			],
 			[
 				"column",
@@ -424,10 +496,6 @@
 				"hidden"
 			],
 			[
-				"no",
-				"no-repeat"
-			],
-			[
 				"de",
 				"default"
 			],
@@ -446,74 +514,6 @@
 			[
 				"sta",
 				"startCityFind"
-			],
-			[
-				"poin",
-				"pointFinish"
-			],
-			[
-				"fini",
-				"finishCityFind"
-			],
-			[
-				"val",
-				"val"
-			],
-			[
-				"get",
-				"getDistance"
-			],
-			[
-				"im",
-				"important"
-			],
-			[
-				"tr",
-				"transform\t(top-menu.scss)"
-			],
-			[
-				"servi",
-				"services-content"
-			],
-			[
-				"flee",
-				"fleet-content"
-			],
-			[
-				"tar",
-				"tarifs-content"
-			],
-			[
-				"tit",
-				"title__text"
-			],
-			[
-				"to",
-				"toString"
-			],
-			[
-				"ci",
-				"cityStart\t(data.js)"
-			],
-			[
-				"foo",
-				"footer-phones__item"
-			],
-			[
-				"header-p",
-				"header-phones__item"
-			],
-			[
-				"cost",
-				"costDistance"
-			],
-			[
-				"cos",
-				"costDistance"
-			],
-			[
-				"point",
-				"pointStart"
 			]
 		]
 	},
@@ -591,10 +591,61 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/extiser/git/btb"
+		"/Users/extiser/git/btb",
+		"/Users/extiser/git/btb/markup",
+		"/Users/extiser/git/btb/markup/components",
+		"/Users/extiser/git/btb/markup/pages",
+		"/Users/extiser/git/btb/markup/static",
+		"/Users/extiser/git/btb/markup/static/scss"
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/btb/markup/components/folio-item/folio-item.scss",
+		"/Users/extiser/git/btb/markup/components/folio-text/folio-text.scss",
+		"/Users/extiser/git/btb/markup/components/folio-title/folio-title.scss",
+		"/Users/extiser/git/btb/markup/components/folio-main/folio-main.scss",
+		"/Users/extiser/git/btb/markup/components/folio-project/folio-project.jade",
+		"/Users/extiser/git/btb/markup/components/left-side/left-side.scss",
+		"/Users/extiser/git/btb/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/btb/markup/components/top-baner/top-baner.scss",
+		"/Users/extiser/git/btb/markup/components/partners/partners.scss",
+		"/Users/extiser/git/btb/markup/components/menu/menu.scss",
+		"/Users/extiser/git/btb/markup/components/footer/footer.scss",
+		"/Users/extiser/git/btb/markup/components/folio-title/folio-title.jade",
+		"/Users/extiser/git/btb/markup/components/services/services.scss",
+		"/Users/extiser/git/btb/markup/components/top-baner/top-baner.jade",
+		"/Users/extiser/Library/Application Support/Sublime Text 3/Packages/CSScomb/CSScomb.sublime-settings",
+		"/Users/extiser/git/btb/markup/components/left-side/left-side.jade",
+		"/Users/extiser/Library/Application Support/Sublime Text 3/Packages/User/CSScomb.sublime-settings",
+		"/Users/extiser/git/btb/markup/components/footer/footer.jade",
+		"/Users/extiser/git/btb/markup/components/folio-item/folio-item.jade",
+		"/Users/extiser/git/btb/markup/components/folio-main/folio-main.jade",
+		"/Users/extiser/git/btb/markup/components/big-baner/big-baner.jade",
+		"/Users/extiser/git/btb/markup/components/big-baner/big-baner.scss",
+		"/Users/extiser/git/btb/markup/components/services/services.jade",
+		"/Users/extiser/git/btb/markup/components/menu/menu.jade",
+		"/Users/extiser/git/btb/markup/static/scss/common.scss",
+		"/Users/extiser/git/btb/markup/static/scss/vars.scss",
+		"/Users/extiser/git/btb/markup/static/scss/mixins.scss",
+		"/Users/extiser/git/btb/markup/pages/project.jade",
+		"/Users/extiser/git/btb/markup/components/folio-project/folio-project.scss",
+		"/Users/extiser/git/btb/markup/components/folio-text/folio-text.jade",
+		"/Users/extiser/git/btb/markup/pages/layout.jade",
+		"/Users/extiser/git/btb/markup/pages/service.jade",
+		"/Users/extiser/git/btb/markup/components/service-slider/service-slider.jade",
+		"/Users/extiser/git/btb/markup/components/service-slider/service-slider.scss",
+		"/Users/extiser/git/btb/markup/components/services/services.js",
+		"/Users/extiser/git/btb/markup/components/partners/partners.jade",
+		"/Users/extiser/git/btb/markup/components/buro-text/buro-text.jade",
+		"/Users/extiser/git/btb/markup/components/buro-text/buro-text.scss",
+		"/Users/extiser/git/btb/markup/pages/index.jade",
+		"/Users/extiser/git/btb/markup/components/left-side/left-side.js",
+		"/Users/extiser/git/btb/markup/components/menu/menu.js",
+		"/Users/extiser/git/btb/markup/components/head/data/data.js",
+		"/Users/extiser/git/btb/markup/components/default_component_scheme.json",
+		"/Users/extiser/git/btb/tars-config.js",
+		"/Users/extiser/git/btb/markup/static/scss/fonts.scss",
+		"/Users/extiser/git/btb/markup/static/scss/libraries/icons.scss",
 		"/Users/extiser/git/sovets-pro/markup/modules/top-login/top-login.scss",
 		"/Users/extiser/git/sovets-pro/markup/modules/single-content/single-content.scss",
 		"/Users/extiser/git/sovets-pro/markup/modules/single-content/single-content.jade",
@@ -676,53 +727,7 @@
 		"/Users/extiser/git/sovets-pro/markup/modules/vk-widget/vk-widget.scss",
 		"/Users/extiser/git/sovets-pro/markup/pages/sitemap.jade",
 		"/Users/extiser/git/sovets-pro/markup/modules/sitemap-page/sitemap-page.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/sitemap-page/sitemap-page.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/read-more/read-more.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/menu/data/data.js",
-		"/Users/extiser/Dropbox/fix.css",
-		"/Users/extiser/git/nemodnaya/builds/static/css/main_ie9.css",
-		"/Users/extiser/git/nemodnaya/builds/static/css/main_ie9.min.css",
-		"/Users/extiser/git/sovets-pro/markup/static/scss/etc/other-icons.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/expert-settings/expert-settings.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/registration-page/registration-page.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/article-block/article-block.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/article-block/article-block.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/experts-menu/experts-menu.scss",
-		"/Users/extiser/git/sovets-pro/markup/pages/experts.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/experts-menu/experts-menu.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/expert-ask-question/expert-ask-question.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/expert-ask-question/expert-ask-question.jade",
-		"/Users/extiser/git/sovets-pro/markup/pages/experts-ask-question.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/expert-ask-question/expert-ask-questionjade",
-		"/Users/extiser/git/sovets-pro/markup/modules/expert-questions/expert-questions.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/expert-questions/expert-questions.jade",
-		"/Users/extiser/git/sovets-pro/markup/pages/experts-questions.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/expert-favourite/expert-favourite.jade",
-		"/Users/extiser/git/sovets-pro/markup/pages/experts-articles.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/expert-favourite/expert-favourite.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/experts-favourite/experts-favourite.jade",
-		"/Users/extiser/git/sovets-pro/markup/pages/experts-favourite.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/expert-become/expert-become.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/expert-become/expert-become.jade",
-		"/Users/extiser/git/sovets-pro/markup/pages/experts-profile.jade",
-		"/Users/extiser/git/sovets-pro/markup/pages/registration.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/registration-page/registration-page.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/login-page/login-page.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/login-page-form/login-page-form.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/login-page-form/login-page-form.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/experts-page/experts-page.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/experts-rate-item/experts-rate-item.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/experts-page/experts-page.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/experts-rate-item/experts-rate-item.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/lifehacks/lifehacks.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/show-more/show-more.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/lifehacks/lifehacks.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/best-experts/best-experts.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/best-experts/best-experts.scss",
-		"/Users/extiser/git/izeta-site/markup/modules/menu/menu.jade",
-		"/Users/extiser/git/izeta-site/markup/pages/collection.jade",
-		"/Users/extiser/git/sovets-pro/markup/static/scss/fonts.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/tips-hours/tips-hours.scss"
+		"/Users/extiser/git/sovets-pro/markup/modules/sitemap-page/sitemap-page.scss"
 	],
 	"find":
 	{
@@ -742,6 +747,10 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"$medium",
+			"$large",
+			"folio-item",
+			"v",
 			"sidebar",
 			"top-label",
 			"form",
@@ -865,11 +874,7 @@
 			".visible-xs-block.visible-md-block",
 			".visible-xs-block",
 			".title",
-			"8",
-			"send",
-			"$blue",
-			"-webkit-margin-before: 1em;",
-			"HelveticaNeueCyrBold"
+			"8"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -877,6 +882,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"$large",
+			"$xlarge",
+			"folio-main",
 			"",
 			"#",
 			".form__label.form__label--inline",
@@ -1001,10 +1009,7 @@
 			"../images",
 			"",
 			"b-why-you-need",
-			"b-in-photo",
-			"b-why",
-			"03dbaf",
-			"01a987"
+			"b-in-photo"
 		],
 		"reverse": false,
 		"show_context": false,
@@ -1063,7 +1068,7 @@
 	"project": "btb.sublime-project",
 	"replace":
 	{
-		"height": 56.0
+		"height": 114.0
 	},
 	"save_all_on_build": true,
 	"select_file":

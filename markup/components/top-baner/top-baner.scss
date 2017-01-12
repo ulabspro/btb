@@ -1,49 +1,32 @@
 .top-baner {
   position: relative;
-  @include breakpoint($xlarge) {
-    overflow: hidden;
+
+  overflow: hidden;
+
+  width: 100%;
+  height: 100vh;
+
+  background-color: $blue;
+  &__image {
+    @include absolute-center;
 
     width: 100%;
     height: 100vh;
-  }
 
-  background-color: $blue;
-  @media screen and (min-width: 1440px) and (max-width: 1920px) {
-    overflow: hidden;
-
-    height: 100vh;
-  }
-  &__image {
-    @include breakpoint($xlarge) {
-      @include absolute-center;
-
-      width: 100%;
-      height: 100vh;
-    }
-    img {
-      @include breakpoint($xlarge) {
-        @include absolute-center;
-
-        width: auto;
-        height: 100vh;
-      }
-
-      width: 100%;
-      height: auto;
-
-      opacity: .4;
-    }
+    opacity: .4;
+    background: url(%=static=%content/baner.jpg) no-repeat center;
+    background-size: cover;
   }
   &__content {
     position: absolute;
     z-index: 2;
-    @include breakpoint($medium) {
+    @media screen and (max-width: 480px) {
       padding-top: rem-calc(58);
       padding-right: rem-calc(30);
       padding-bottom: rem-calc(30);
       padding-left: rem-calc(30);
     }
-    @include breakpoint($small) {
+    @media screen and (max-width: 320px) {
       padding-top: rem-calc(55);
       padding-right: rem-calc(20);
       padding-left: rem-calc(20);
@@ -60,13 +43,13 @@
     background-color: rgba($blue, .5);
   }
   &__title {
-    @include breakpoint($large) {
+    @media screen and (max-width: 800px) {
       text-align: left;
     }
-    @include breakpoint($medium) {
+    @media screen and (max-width: 480px) {
       font-size: rem-calc(16);
     }
-    @include breakpoint($small) {
+    @media screen and (max-width: 320px) {
       font-size: rem-calc(13);
     }
 
@@ -83,14 +66,14 @@
   &__bottom {
     bottom: rem-calc(34);
     @include horizontal-center;
-    @include breakpoint($medium) {
+    @media screen and (max-width: 480px) {
       bottom: inherit;
       @include absolute-center;
 
       padding-right: rem-calc(30);
       padding-left: rem-calc(30);
     }
-    @include breakpoint($small) {
+    @media screen and (max-width: 320px) {
       padding-right: rem-calc(20);
       padding-left: rem-calc(20);
     }
@@ -107,14 +90,14 @@
     justify-content: space-between;
   }
   &__header {
-    @include breakpoint($xlarge) {
+    @media screen and (max-width: 1024px) {
       font-size: rem-calc(55);
     }
-    @include breakpoint($medium) {
+    @media screen and (max-width: 480px) {
       font-size: rem-calc(30);
       line-height: rem-calc(46);
     }
-    @include breakpoint($small) {
+    @media screen and (max-width: 320px) {
       margin-top: rem-calc(57);
       margin-bottom: rem-calc(60);
 
@@ -134,7 +117,7 @@
   }
   &__link {
     @extend .transparent-link;
-    @include breakpoint($medium) {
+    @media screen and (max-width: 480px) {
       margin-bottom: rem-calc(60);
 
       font-size: rem-calc(18);

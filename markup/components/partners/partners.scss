@@ -14,7 +14,7 @@
 
     font-family: $Gilroy-Medium;
     font-size: rem-calc(24);
-    @include breakpoint($large) {
+    @media screen and (max-width: 800px) {
       padding-left: rem-calc(30);
     }
   }

@@ -4,45 +4,33 @@
   top: 0;
   bottom: 0;
   left: 0;
-  @include breakpoint($large) {
-    width: 15.625%;
-  }
 
-  width: 9.72%;
+  width: 140px;
   height: 100%;
 
   text-align: center;
 
   background-color: $blue;
+  @media screen and (max-width: 800px) {
+    width: 15.625%;
+  }
   &__logo {
-    @include breakpoint($large) {
-      width: 60%;
-    }
-    @include breakpoint($medium) {
-      width: 70%;
-    }
-
     display: block;
 
     width: 42.86%;
     margin: rem-calc(48) auto 0;
+    @media screen and (max-width: 800px) {
+      width: 60%;
+    }
+    @media screen and (max-width: 480px) {
+      width: 70%;
+    }
     img {
       width: 100%;
       height: auto;
     }
   }
   &__title {
-    @include breakpoint($medium) {
-      font-size: rem-calc(18);
-    }
-    @include breakpoint($small) {
-      margin-left: -3px;
-
-      white-space: nowrap;
-
-      font-size: rem-calc(16);
-    }
-
     display: inline-block;
 
     margin-top: rem-calc(60);
@@ -53,6 +41,16 @@
     color: $white;
 
     font-size: rem-calc(24);
+    @media screen and (max-width: 480px) {
+      font-size: rem-calc(18);
+    }
+    @media screen and (max-width: 320px) {
+      margin-left: -3px;
+
+      white-space: nowrap;
+
+      font-size: rem-calc(16);
+    }
   }
 }
 
@@ -66,9 +64,6 @@
     right: 0;
     bottom: 0;
     left: 0;
-    @include breakpoint($medium) {
-      font-size: rem-calc(21);
-    }
     @include transition(.4s);
 
     margin: auto;
@@ -77,6 +72,9 @@
 
     font-size: rem-calc(27);
     line-height: 0;
+    @media screen and (max-width: 480px) {
+      font-size: rem-calc(21);
+    }
     &._active {
       transform: rotate(-180deg);
       &:hover {
@@ -91,9 +89,6 @@
   }
   &__text {
     bottom: rem-calc(45);
-    @include breakpoint($medium) {
-      font-size: rem-calc(10);
-    }
     @include horizontal-center;
     @include transition;
 
@@ -105,5 +100,8 @@
     color: rgba($white, .5);
 
     font-size: rem-calc(12);
+    @media screen and (max-width: 480px) {
+      font-size: rem-calc(10);
+    }
   }
 }

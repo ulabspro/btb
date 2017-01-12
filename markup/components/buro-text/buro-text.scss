@@ -1,3 +1,8 @@
 .buro-text {
-
+  &._service {
+    border-bottom: 1px solid #dcdcdc;
+    background: url(%=static=%assets/services/service-tab.png) no-repeat;
+    background-position: right center;
+    background-size: contain;
+  }
 }

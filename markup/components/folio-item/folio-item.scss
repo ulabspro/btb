@@ -20,10 +20,10 @@
   }
   &__content {
     z-index: 2;
-    @include breakpoint($xlarge) {
+    @media screen and (max-width: 1024px) {
       padding: rem-calc(60);
     }
-    @include breakpoint($large) {
+    @media screen and (max-width: 800px) {
       padding: rem-calc(30);
     }
     @include absolute-center;
@@ -38,10 +38,10 @@
   }
   &__title {
     @extend .transparent-link;
-    @include breakpoint($xlarge) {
+    @media screen and (max-width: 1024px) {
       font-size: rem-calc(26);
     }
-    @include breakpoint($large) {
+    @media screen and (max-width: 800px) {
       font-size: rem-calc(20);
     }
 
@@ -55,7 +55,7 @@
     position: absolute;
     bottom: rem-calc(90);
     @extend .transparent-link;
-    @include breakpoint($large) {
+    @media screen and (max-width: 800px) {
       bottom: rem-calc(30);
 
       font-size: rem-calc(16);

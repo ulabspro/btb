@@ -1,5 +1,6 @@
 mixin buro-text(data)
-  .page-text.buro-text
+  - var modiffer = attributes.class || '';
+  .page-text.buro-text(class="#{modiffer}")
     .page-text__category Подход
 
     

@@ -58,6 +58,8 @@ $('.mask').click(function () {
 });
 
 
+
+
 $('.js-tabs-control-item').click(function (e) {
   e.preventDefault();
 
