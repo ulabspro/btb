@@ -1,29 +1,43 @@
 .menu {
+  z-index: 0;
+
   color: $orange;
   &:hover {
     color: $white;
   }
   &__icon {
     @include transition;
-    @media screen and (max-width: 480px) {
-      margin-top: rem-calc(48);
-
-      font-size: rem-calc(20);
-    }
 
     display: block;
 
     margin-top: rem-calc(58);
 
     font-size: rem-calc(30);
+    @media screen and (max-width: 480px) {
+      margin-top: rem-calc(48);
+
+      font-size: rem-calc(20);
+    }
   }
 }
 
 .menu-drop {
   position: fixed;
-  z-index: 0;
+  z-index: 98;
   top: 0;
-  left: 0;
+  left: -30%;
+
+  visibility: hidden;
+
+  box-sizing: border-box;
+  width: 20.83%;
+  height: 100%;
+  padding-top: rem-calc(160);
+  padding-left: rem-calc(60);
+
+  transition: all .4s ease-in-out;
+
+  background-color: $blue;
   @media screen and (max-width: 800px) {
     width: 30%;
     padding-top: rem-calc(175);
@@ -36,44 +50,37 @@
   @media screen and (max-width: 320px) {
     width: 60%;
   }
-  @include transition;
-
-  visibility: hidden;
-
-  box-sizing: border-box;
-  width: 20.83%;
-  height: 100%;
-  padding-top: rem-calc(160);
-  padding-left: rem-calc(60);
-
-  opacity: 0;
-  background-color: $blue;
   &._active {
-    left: 9.72%;
+    left: 140px;
+
+    visibility: visible;
     @media screen and (max-width: 800px) {
       left: 15.625%;
     }
+    &:after {
+      visibility: visible;
 
-    visibility: visible;
-
-    opacity: 1;
+      opacity: 1;
+    }
   }
   &:after {
     position: absolute;
     top: 0;
     right: -40px;
+    @include transition(.5s);
+
+    visibility: hidden;
 
     width: 40px;
     height: 100%;
 
     content: "";
+    transition-delay: .4s;
 
+    opacity: 0;
     background: url(%=static=%assets/menu/shadow.png) repeat-y;
   }
   &__item {
-    @media screen and (max-width: 480px) {
-      font-size: rem-calc(18);
-    }
     @include transition;
 
     display: block;
@@ -87,6 +94,9 @@
 
     font-size: rem-calc(24);
     line-height: 1;
+    @media screen and (max-width: 480px) {
+      font-size: rem-calc(18);
+    }
     &:hover,
     &._active {
       color: $orange;

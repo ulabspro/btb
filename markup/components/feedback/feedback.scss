@@ -1,0 +1,135 @@
+.feedback {
+  padding-top: rem-calc(57);
+  &__title {
+    @include breakpoint($medium) {
+      padding-left: 0;
+
+      text-align: center;
+    }
+
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: rem-calc(40);
+    padding-left: rem-calc(65);
+
+    color: $orange;
+
+    font-family: $Gilroy-Semibold;
+    font-size: rem-calc(24);
+  }
+}
+
+.feedback-form {
+  @include breakpoint($medium) {
+    display: block;
+  }
+
+  display: flex;
+
+  align-items: stretch;
+  justify-content: space-between;
+  &__group {
+    position: relative;
+    @include breakpoint($x-large) {
+      width: 100%;
+      padding-right: rem-calc(15);
+      padding-left: rem-calc(15);
+    }
+
+    box-sizing: border-box;
+    width: 33.333%;
+    padding-top: rem-calc(35);
+    padding-right: rem-calc(55);
+    padding-bottom: rem-calc(35);
+    padding-left: rem-calc(55);
+
+    text-align: center;
+
+    border-top: 1px solid #dcdcdc;
+    border-right: 1px solid #dcdcdc;
+    &:last-child {
+      border-right: 0;
+    }
+  }
+  &__title {
+    color: #ccc;
+
+    font-family: $Gilroy-Semibold;
+    font-size: rem-calc(16);
+    &._bottom {
+      bottom: rem-calc(35);
+      @include horizontal-center;
+      @include breakpoint($x-large) {
+        position: relative;
+        bottom: inherit;
+      }
+    }
+  }
+  &__field {
+    @include breakpoint($x-large) {
+      font-size: rem-calc(16);
+    }
+
+    width: 100%;
+    margin-top: rem-calc(30);
+
+    text-align: center;
+
+    color: $blue;
+    border: 0;
+
+    font-family: $Gilroy-Medium;
+    font-size: rem-calc(24);
+    &:focus {
+      outline: none;
+    }
+  }
+  &__select {
+    width: 100%;
+
+    border: 0;
+    background-color: transparent;
+  }
+  &__submit {
+    @extend .orange-dashed-block;
+    @include absolute-center;
+    @include breakpoint($x-large) {
+      position: relative;
+      top: 0;
+      left: 0;
+
+      margin: rem-calc(30) auto;
+
+      transform: initial;
+    }
+
+    width: 165px;
+
+    border: 0;
+    background-size: cover;
+
+    font-size: rem-calc(24);
+    line-height: inherit;
+  }
+}
+
+.feedback-form-select {
+  z-index: 2;
+  @include absolute-center;
+  @include breakpoint($x-large) {
+    position: relative;
+    top: 0;
+    left: 0;
+
+    margin: rem-calc(30) 0;
+
+    transform: initial;
+  }
+
+  width: 100%;
+  select {
+    width: 100%;
+
+    opacity: 0;
+  }
+}

@@ -1,0 +1,78 @@
+.selectize-control {
+  // position: relative;
+}
+
+.selectize-dropdown,
+.selectize-input {
+  color: $blue;
+  background-color: #fff;
+
+  -webkit-font-smoothing: inherit;
+}
+.selectize-input {
+  // position: relative;
+  z-index: 1;
+
+  display: inline-block;
+  overflow: hidden;
+
+  box-sizing: border-box;
+  width: 100%;
+
+  cursor: default;
+
+  background: #fff;
+}
+
+.selectize-input .item {
+  @include breakpoint($x-large) {
+    font-size: rem-calc(16);
+  }
+
+  color: $blue;
+
+  font-family: $Gilroy-Medium;
+  font-size: rem-calc(24);
+}
+
+.selectize-input > input {
+  display: none;
+}
+
+.selectize-dropdown {
+  z-index: 10;
+  @include vertical-center;
+
+  box-sizing: border-box;
+  padding: 15px;
+
+  border: 1px solid #ccc;
+  background: #fff;
+
+  font-size: rem-calc(16);
+  line-height: rem-calc(20);
+}
+
+.selectize-dropdown .active {
+  color: $white;
+  background-color: #ccc;
+}
+.selectize-dropdown-content {
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+
+  max-height: 200px;
+}
+
+.selectize-dropdown-content .option {
+  @include transition;
+
+  padding: 5px 15px;
+  &:hover {
+    cursor: default;
+
+    color: $white;
+    background-color: $blue;
+  }
+}

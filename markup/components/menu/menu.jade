@@ -2,8 +2,9 @@ mixin menu(data)
   .menu
     i.icon.icon-menu.menu__icon.js-menu-trigger
 
-    .menu-drop.js-menu-drop
-      .menu-drop__item._active Главная
-      a(href="#" title="").menu-drop__item Услуги
-      a(href="#" title="").menu-drop__item О бюро
-      a(href="#" title="").menu-drop__item Проекты
+mixin menu-drop()
+  .menu-drop.js-menu-drop
+    .menu-drop__item._active Главная
+    a(href="/service.html" title="").menu-drop__item Услуги
+    a(href="/buro.html" title="").menu-drop__item О бюро
+    a(href="/project.html" title="").menu-drop__item Проекты

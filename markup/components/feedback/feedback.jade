@@ -1,0 +1,31 @@
+mixin feedback(data)
+  .feedback
+    .feedback__title Отправить заявку
+
+    .feedback-form
+      .feedback-form__group
+        .feedback-form__title Ваши данные
+
+        input(type="text" value="Агафонов Михаил" placeholder="Ваше имя").feedback-form__field
+        input(type="text" value="" placeholder="Должность и компания").feedback-form__field
+        input(type="text" value="" placeholder="Телефон").feedback-form__field
+
+      .feedback-form__group
+        .feedback-form__title Выбрать услугу
+
+        .feedback-form-select
+          select.js-select
+            option Разработка «Специальных технических условий»
+            option Разработка раздела «Мероприятия по обеспечению пожарной безопасности».
+            option Разработка Отчета о проведении предварительного планирования действий по тушению пожара.
+
+        .feedback-form__title._bottom Выбрать
+
+      .feedback-form__group
+        .feedback-form__title Отправить
+
+        input(type="submit" value="Отправить").feedback-form__submit
+
+        .feedback-form__title._bottom Наши специалисты скоро <br>перезвонят вам.
+
+      

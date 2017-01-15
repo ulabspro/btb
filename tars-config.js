@@ -23,7 +23,8 @@ module.exports = {
         },
         "jsPathsToConcatBeforeModulesJs": [
             'node_modules/jquery/dist/jquery.min.js',
-            'node_modules/slick-carousel/slick/slick.min.js'
+            'node_modules/slick-carousel/slick/slick.min.js',
+            'node_modules/selectize/dist/js/standalone/selectize.js'
         ],
         "lintJsCodeBeforeModules": false,
         "jsPathsToConcatAfterModulesJs": [],

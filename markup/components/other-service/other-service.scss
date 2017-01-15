@@ -1,0 +1,56 @@
+.other-service {
+  @include breakpoint($large) {
+    padding-top: rem-calc(90);
+    padding-right: rem-calc(50);
+    padding-bottom: rem-calc(100);
+    padding-left: rem-calc(30);
+  }
+  @include breakpoint($medium) {
+    display: block;
+
+    padding-right: rem-calc(30);
+    padding-bottom: rem-calc(50);
+  }
+
+  display: flex;
+
+  padding-top: rem-calc(120);
+  padding-right: rem-calc(90);
+  padding-bottom: rem-calc(57);
+  padding-left: rem-calc(65);
+
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  &__title {
+    width: 100%;
+    margin-bottom: rem-calc(40);
+
+    color: $orange;
+
+    font-family: $Gilroy-Semibold;
+    font-size: rem-calc(24);
+  }
+  &__left {
+    @include breakpoint($medium) {
+      width: 100%;
+    }
+
+    width: 47%;
+  }
+  &__right {
+    @include breakpoint($medium) {
+      width: 100%;
+    }
+
+    width: 32%;
+  }
+  &__item {
+    margin-bottom: rem-calc(26);
+
+    color: #5d5d5d;
+
+    font-family: $Gilroy-Medium;
+    font-size: rem-calc(20);
+  }
+}

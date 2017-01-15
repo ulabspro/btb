@@ -1,4 +1,15 @@
 .service-list {
+  @include breakpoint($large) {
+    padding-top: rem-calc(90);
+    padding-right: rem-calc(50);
+    padding-bottom: rem-calc(100);
+    padding-left: rem-calc(30);
+  }
+  @include breakpoint($medium) {
+    padding-right: rem-calc(30);
+    padding-bottom: rem-calc(50);
+  }
+
   padding-top: rem-calc(115);
   padding-right: rem-calc(120);
   padding-bottom: rem-calc(120);
@@ -21,6 +32,14 @@
     color: $blue;
 
     font-size: rem-calc(30);
+    @media screen and (max-width: 940px) {
+      width: 100%;
+    }
+    @media screen and (max-width: 760px) {
+      padding-left: rem-calc(30);
+
+      font-size: rem-calc(20);
+    }
     &:before {
       position: absolute;
       left: 0;
@@ -28,6 +47,9 @@
       color: $orange;
 
       font-size: rem-calc(30);
+      @media screen and (max-width: 760px) {
+        font-size: rem-calc(18);
+      }
     }
   }
   &__right {
@@ -40,5 +62,18 @@
 
     font-size: rem-calc(20);
     line-height: rem-calc(30);
+    @media screen and (max-width: 940px) {
+      float: none;
+
+      width: 100%;
+      margin-top: rem-calc(20);
+      padding-left: rem-calc(60);
+    }
+    @media screen and (max-width: 760px) {
+      padding-left: rem-calc(30);
+
+      font-size: rem-calc(16);
+      line-height: rem-calc(26);
+    }
   }
 }

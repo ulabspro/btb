@@ -5,16 +5,17 @@
   width: 100%;
   max-width: 1920px;
   margin: auto;
+
+  background-color: $white;
 }
 
 .right-side {
-  @media screen and (max-width: 800px) {
-    width: 84.375%;
-  }
-
   float: right;
 
   width: calc(100% - 140px);
+  @media screen and (max-width: 800px) {
+    width: 84.375%;
+  }
 }
 
 .transparent-link {

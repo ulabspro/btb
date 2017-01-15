@@ -4,20 +4,68 @@
 		"selected_items":
 		[
 			[
-				"padd",
-				"padding"
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"visi",
+				"visibility"
 			],
 			[
 				"marign",
 				"margin-left"
 			],
 			[
-				"no",
-				"nowrap"
+				"resi",
+				"resizeGraph"
 			],
 			[
-				"pad",
-				"padding-bottom"
+				"resz",
+				"resizeGraph"
+			],
+			[
+				"gra",
+				"graphItemRatio"
+			],
+			[
+				"righ",
+				"rightSideSize"
+			],
+			[
+				"conso",
+				"console.log"
+			],
+			[
+				"vi",
+				"visible"
+			],
+			[
+				"ser",
+				"service-graph-item\t(service-graph.scss)"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"service",
+				"service-graph-item"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"serv",
+				"service-graph"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"no",
+				"nowrap"
 			],
 			[
 				"te",
@@ -32,24 +80,12 @@
 				"inherit"
 			],
 			[
-				"back",
-				"background-position"
-			],
-			[
-				"fon",
-				"font-size"
-			],
-			[
 				"fol",
 				"folio-text"
 			],
 			[
 				"js",
 				"js-tabs-full-item\t(services.scss)"
-			],
-			[
-				"ser",
-				"service-slider"
 			],
 			[
 				"par",
@@ -164,10 +200,6 @@
 				"background-position"
 			],
 			[
-				"vi",
-				"violet"
-			],
-			[
 				"ver",
 				"vertical-align"
 			],
@@ -178,10 +210,6 @@
 			[
 				"r",
 				"rgba"
-			],
-			[
-				"visi",
-				"visible"
 			],
 			[
 				"js-cha",
@@ -486,34 +514,6 @@
 			[
 				"inl",
 				"inline-block"
-			],
-			[
-				"ma",
-				"main-categories-list__item"
-			],
-			[
-				"h",
-				"hidden"
-			],
-			[
-				"de",
-				"default"
-			],
-			[
-				"font-s",
-				"font-size"
-			],
-			[
-				"po",
-				"pointStart"
-			],
-			[
-				"sum",
-				"sumTarifBack"
-			],
-			[
-				"sta",
-				"startCityFind"
 			]
 		]
 	},
@@ -594,58 +594,66 @@
 		"/Users/extiser/git/btb",
 		"/Users/extiser/git/btb/markup",
 		"/Users/extiser/git/btb/markup/components",
+		"/Users/extiser/git/btb/markup/components/left-side",
+		"/Users/extiser/git/btb/markup/components/service-graph",
 		"/Users/extiser/git/btb/markup/pages",
 		"/Users/extiser/git/btb/markup/static",
 		"/Users/extiser/git/btb/markup/static/scss"
 	],
 	"file_history":
 	[
-		"/Users/extiser/git/btb/markup/components/folio-item/folio-item.scss",
-		"/Users/extiser/git/btb/markup/components/folio-text/folio-text.scss",
-		"/Users/extiser/git/btb/markup/components/folio-title/folio-title.scss",
-		"/Users/extiser/git/btb/markup/components/folio-main/folio-main.scss",
-		"/Users/extiser/git/btb/markup/components/folio-project/folio-project.jade",
+		"/Users/extiser/git/svteam/sovets/protected/views/frontend/templates/article.php",
+		"/Users/extiser/git/btb/markup/components/service-graph/service-graph.jade",
+		"/Users/extiser/git/btb/markup/components/service-graph/service-graph.js",
+		"/Users/extiser/git/btb/markup/components/service-graph/service-graph.scss",
 		"/Users/extiser/git/btb/markup/components/left-side/left-side.scss",
 		"/Users/extiser/git/btb/markup/static/scss/GUI.scss",
-		"/Users/extiser/git/btb/markup/components/top-baner/top-baner.scss",
-		"/Users/extiser/git/btb/markup/components/partners/partners.scss",
-		"/Users/extiser/git/btb/markup/components/menu/menu.scss",
+		"/Users/extiser/git/btb/markup/static/scss/vars.scss",
+		"/Users/extiser/git/btb/markup/components/folio-text/folio-text.scss",
+		"/Users/extiser/git/btb/markup/components/folio-title/folio-title.scss",
 		"/Users/extiser/git/btb/markup/components/footer/footer.scss",
-		"/Users/extiser/git/btb/markup/components/folio-title/folio-title.jade",
+		"/Users/extiser/git/btb/markup/components/menu/menu.scss",
+		"/Users/extiser/git/btb/markup/components/partners/partners.scss",
 		"/Users/extiser/git/btb/markup/components/services/services.scss",
-		"/Users/extiser/git/btb/markup/components/top-baner/top-baner.jade",
-		"/Users/extiser/Library/Application Support/Sublime Text 3/Packages/CSScomb/CSScomb.sublime-settings",
+		"/Users/extiser/git/btb/markup/components/top-baner/top-baner.scss",
+		"/Users/extiser/git/btb/markup/components/folio-main/folio-main.scss",
+		"/Users/extiser/git/btb/markup/components/big-baner/big-baner.scss",
+		"/Users/extiser/git/btb/markup/components/folio-item/folio-item.scss",
+		"/Users/extiser/git/btb/markup/pages/service.jade",
+		"/Users/extiser/git/btb/markup/pages/layout.jade",
+		"/Users/extiser/git/btb/markup/components/service-list/service-list.scss",
+		"/Users/extiser/git/btb/markup/components/service-list/service-list.jade",
+		"/Users/extiser/git/btb/markup/components/buro-text/buro-text.scss",
+		"/Users/extiser/git/btb/markup/static/scss/libraries/icons.scss",
+		"/Users/extiser/git/btb/markup/pages/index.jade",
+		"/Users/extiser/git/btb/markup/components/buro-text/buro-text.jade",
+		"/Users/extiser/git/btb/markup/components/services/services.jade",
 		"/Users/extiser/git/btb/markup/components/left-side/left-side.jade",
+		"/Users/extiser/git/btb/markup/components/top-baner/top-baner.jade",
+		"/Users/extiser/git/btb/markup/components/folio-project/folio-project.jade",
+		"/Users/extiser/git/btb/markup/components/folio-title/folio-title.jade",
+		"/Users/extiser/Library/Application Support/Sublime Text 3/Packages/CSScomb/CSScomb.sublime-settings",
 		"/Users/extiser/Library/Application Support/Sublime Text 3/Packages/User/CSScomb.sublime-settings",
 		"/Users/extiser/git/btb/markup/components/footer/footer.jade",
 		"/Users/extiser/git/btb/markup/components/folio-item/folio-item.jade",
 		"/Users/extiser/git/btb/markup/components/folio-main/folio-main.jade",
 		"/Users/extiser/git/btb/markup/components/big-baner/big-baner.jade",
-		"/Users/extiser/git/btb/markup/components/big-baner/big-baner.scss",
-		"/Users/extiser/git/btb/markup/components/services/services.jade",
 		"/Users/extiser/git/btb/markup/components/menu/menu.jade",
 		"/Users/extiser/git/btb/markup/static/scss/common.scss",
-		"/Users/extiser/git/btb/markup/static/scss/vars.scss",
 		"/Users/extiser/git/btb/markup/static/scss/mixins.scss",
 		"/Users/extiser/git/btb/markup/pages/project.jade",
 		"/Users/extiser/git/btb/markup/components/folio-project/folio-project.scss",
 		"/Users/extiser/git/btb/markup/components/folio-text/folio-text.jade",
-		"/Users/extiser/git/btb/markup/pages/layout.jade",
-		"/Users/extiser/git/btb/markup/pages/service.jade",
 		"/Users/extiser/git/btb/markup/components/service-slider/service-slider.jade",
 		"/Users/extiser/git/btb/markup/components/service-slider/service-slider.scss",
 		"/Users/extiser/git/btb/markup/components/services/services.js",
 		"/Users/extiser/git/btb/markup/components/partners/partners.jade",
-		"/Users/extiser/git/btb/markup/components/buro-text/buro-text.jade",
-		"/Users/extiser/git/btb/markup/components/buro-text/buro-text.scss",
-		"/Users/extiser/git/btb/markup/pages/index.jade",
 		"/Users/extiser/git/btb/markup/components/left-side/left-side.js",
 		"/Users/extiser/git/btb/markup/components/menu/menu.js",
 		"/Users/extiser/git/btb/markup/components/head/data/data.js",
 		"/Users/extiser/git/btb/markup/components/default_component_scheme.json",
 		"/Users/extiser/git/btb/tars-config.js",
 		"/Users/extiser/git/btb/markup/static/scss/fonts.scss",
-		"/Users/extiser/git/btb/markup/static/scss/libraries/icons.scss",
 		"/Users/extiser/git/sovets-pro/markup/modules/top-login/top-login.scss",
 		"/Users/extiser/git/sovets-pro/markup/modules/single-content/single-content.scss",
 		"/Users/extiser/git/sovets-pro/markup/modules/single-content/single-content.jade",
@@ -721,23 +729,18 @@
 		"/Users/extiser/git/sovets-pro/markup/modules/footer/footer.scss",
 		"/Users/extiser/git/sovets-pro/markup/static/scss/plugins/slick.scss",
 		"/Users/extiser/git/sovets-pro/markup/modules/zodiac/zodiac.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/zodiac/zodiac.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/expert/expert.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/tips-hours/tips-hours.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/vk-widget/vk-widget.scss",
-		"/Users/extiser/git/sovets-pro/markup/pages/sitemap.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/sitemap-page/sitemap-page.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/sitemap-page/sitemap-page.scss"
+		"/Users/extiser/git/sovets-pro/markup/modules/zodiac/zodiac.jade"
 	],
 	"find":
 	{
-		"height": 30.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
 		"height": 158.0,
 		"where_history":
 		[
+			"/Users/extiser/git/btb/markup/components",
 			"/Users/extiser/git/sovets-pro/markup/modules",
 			""
 		]
@@ -747,6 +750,26 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"title",
+			"_inside",
+			"._top",
+			"_top",
+			"caption",
+			"max-width: 900px",
+			"&__title",
+			"__title",
+			"_title",
+			"_small",
+			"(max-width: 1700px)",
+			"1700",
+			"@include breakpoint($xxlarge)",
+			"@include breakpoint($x-slarge)",
+			"@include breakpoint($x-large)",
+			"@include breakpoint($x-mlarge)",
+			"@include breakpoint($xlarge)",
+			"@include breakpoint($large)",
+			"@include breakpoint($medium)",
+			"@include breakpoint($small)",
 			"$medium",
 			"$large",
 			"folio-item",
@@ -854,27 +877,7 @@
 			".row",
 			"unisans",
 			".small-article",
-			"a(href=\"#\" ",
-			"ul",
-			"search",
-			"onThumbnailsClick",
-			"pswp",
-			"pswp__item",
-			"openPhotoSwipe",
-			"Thumbnail",
-			"parse",
-			"parseThumbnailElements",
-			".col-lg-11.col-xs-12.col-md-12",
-			".col-lg-1.hidden-xs",
-			".col-lg-1.hidden-xs.hidden-md",
-			".col-lg-11.col-lg-offset-1.col-xs-12.col-md-12",
-			".col-xs-12",
-			".col-md",
-			".col-xs-12",
-			".visible-xs-block.visible-md-block",
-			".visible-xs-block",
-			".title",
-			"8"
+			"a(href=\"#\" "
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -882,6 +885,16 @@
 		"regex": false,
 		"replace_history":
 		[
+			"max-width: 870px",
+			"(max-width: 1440px)",
+			"@media screen and (max-width: 1700px)",
+			"@media screen and (max-width: 1400px)",
+			"@media screen and (max-width: 1280px)",
+			"@media screen and (max-width: 1180px)",
+			"@media screen and (max-width: 1024px)",
+			"@media screen and (max-width: 800px)",
+			"@media screen and (max-width: 480px)",
+			"@media screen and (max-width: 320px)",
 			"$large",
 			"$xlarge",
 			"folio-main",
@@ -999,17 +1012,7 @@
 			"",
 			".pagination__item",
 			"order-by",
-			"/images/",
-			"../images/sprite.png",
-			"/images",
-			"/",
-			"/images",
-			"/images/",
-			"",
-			"../images",
-			"",
-			"b-why-you-need",
-			"b-in-photo"
+			"/images/"
 		],
 		"reverse": false,
 		"show_context": false,
