@@ -489,7 +489,7 @@ blockquote {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 736px) {
   .right-side {
     width: 100%;
   }
@@ -1050,14 +1050,7 @@ body {
   display: none;
 }
 
-.buro-text._service {
-  border-bottom: 1px solid #dcdcdc;
-  background: url(../images/assets/services/service-tab.png) no-repeat;
-  background-position: right center;
-  background-size: contain;
-}
-
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 736px) {
   .big-baner {
     height: 100vh !important;
     margin-top: 0 !important;
@@ -1109,7 +1102,7 @@ body {
   font-size: 3rem;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 736px) {
   .big-baner__title {
     margin-bottom: 2.5rem;
     font-size: 1.375rem;
@@ -1121,6 +1114,13 @@ body {
   .big-baner__link {
     font-size: 1.125rem;
   }
+}
+
+.buro-text._service {
+  border-bottom: 1px solid #dcdcdc;
+  background: url(../images/assets/services/service-tab.png) no-repeat;
+  background-position: right center;
+  background-size: contain;
 }
 
 .feedback {
@@ -1694,7 +1694,7 @@ body {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 736px) {
   .left-side {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1703,6 +1703,7 @@ body {
     width: 100%;
     height: 80px;
     padding-left: 1.25rem;
+    padding-right: 1.25rem;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -1724,7 +1725,7 @@ body {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 736px) {
   .left-side__logo {
     width: 120px;
     margin-top: 0;
@@ -1750,7 +1751,7 @@ body {
   font-size: 1.5rem;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 736px) {
   .left-side__title {
     display: none;
   }
@@ -1765,7 +1766,7 @@ body {
   width: 100%;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 736px) {
   .left-side-down {
     display: none;
   }
@@ -1830,7 +1831,7 @@ body {
   color: #ff5b00;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 736x) {
   .menu {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
@@ -1850,7 +1851,7 @@ body {
   font-size: 1.875rem;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 736px) {
   .menu__icon {
     margin-top: 0;
     font-size: 1.25rem;
@@ -1905,7 +1906,7 @@ body {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 736px) {
   .menu-drop._active {
     left: 0;
   }
@@ -2983,9 +2984,17 @@ body {
   background-color: #071525;
 }
 
+@media screen and (max-width: 736px) {
+  .top-baner, .big-baner {
+    min-height: 120vh;
+    margin-top: 80px;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .top-baner, .big-baner {
-    height: calc(100vh - 80px);
+    height: auto;
+    min-height: 100vh;
     margin-top: 80px;
   }
 }
@@ -3001,6 +3010,12 @@ body {
   opacity: .4;
   background: url(../images/content/baner.jpg) no-repeat center;
   background-size: cover;
+}
+
+@media screen and (max-width: 736px) {
+  .top-baner__image, .big-baner__image {
+    height: 100%;
+  }
 }
 
 .top-baner__content, .big-baner__content {
@@ -3047,7 +3062,7 @@ body {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 736px) {
   .top-baner__title {
     display: none;
   }
@@ -3061,7 +3076,7 @@ body {
   display: none;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 736px) {
   .top-baner__title._mobile {
     display: block;
     margin-left: 1.875rem;
@@ -3128,7 +3143,7 @@ body {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 736px) {
   .top-baner__header {
     font-size: 1.875rem;
     line-height: 2.875rem;
@@ -3138,7 +3153,7 @@ body {
 @media screen and (max-width: 320px) {
   .top-baner__header {
     margin-top: 3.5625rem;
-    margin-bottom: 3.75rem;
+    margin-bottom: 2.5rem;
     font-size: 1.5625rem;
     line-height: 2.1875rem;
   }
@@ -3154,7 +3169,7 @@ body {
 
 @media screen and (max-width: 480px) {
   .top-baner__link {
-    margin-bottom: 3.75rem;
+    margin-bottom: 2.5rem;
     font-size: 1.125rem;
   }
 }

@@ -7,8 +7,13 @@
   height: 100vh;
 
   background-color: $blue;
+  @media screen and (max-width: 736px) {
+    min-height: 120vh;
+    margin-top: 80px;
+  }
   @media screen and (max-width: 480px) {
-    height: calc(100vh - 80px);
+    height: auto;
+    min-height: 100vh;
     margin-top: 80px;
   }
   &__image {
@@ -20,6 +25,9 @@
     opacity: .4;
     background: url(%=static=%content/baner.jpg) no-repeat center;
     background-size: cover;
+    @media screen and (max-width: 736px) {
+      height: 100%;
+    }
   }
   &__content {
     position: absolute;
@@ -57,7 +65,7 @@
     @media screen and (max-width: 800px) {
       text-align: left;
     }
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 736px) {
       display: none;
     }
     span {
@@ -65,7 +73,7 @@
     }
     &._mobile {
       display: none;
-      @media screen and (max-width: 480px) {
+      @media screen and (max-width: 736px) {
         display: block;
 
         margin-left: rem-calc(30);
@@ -112,13 +120,13 @@
     @media screen and (max-width: 1024px) {
       font-size: rem-calc(55);
     }
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 736px) {
       font-size: rem-calc(30);
       line-height: rem-calc(46);
     }
     @media screen and (max-width: 320px) {
       margin-top: rem-calc(57);
-      margin-bottom: rem-calc(60);
+      margin-bottom: rem-calc(40);
 
       font-size: rem-calc(25);
       line-height: rem-calc(35);
@@ -132,7 +140,7 @@
 
     font-size: rem-calc(24);
     @media screen and (max-width: 480px) {
-      margin-bottom: rem-calc(60);
+      margin-bottom: rem-calc(40);
 
       font-size: rem-calc(18);
     }

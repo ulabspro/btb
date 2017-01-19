@@ -13,13 +13,14 @@
   @media screen and (max-width: 800px) {
     width: 15.625%;
   }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 736px) {
     display: flex;
 
     box-sizing: border-box;
     width: 100%;
     height: 80px;
     padding-left: rem-calc(20);
+    padding-right: rem-calc(20);
 
     align-items: center;
     justify-content: flex-start;
@@ -32,7 +33,7 @@
     @media screen and (max-width: 800px) {
       width: 60%;
     }
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 736px) {
       width: 120px;
       margin-top: 0;
       margin-left: rem-calc(30);
@@ -55,7 +56,7 @@
     color: $white;
 
     font-size: rem-calc(24);
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 736px) {
       display: none;
     }
   }
@@ -66,7 +67,7 @@
   @include horizontal-center;
 
   width: 100%;
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 736px) {
     display: none;
   }
   &__icon {

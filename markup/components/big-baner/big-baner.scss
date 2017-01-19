@@ -1,6 +1,6 @@
 .big-baner {
   @extend .top-baner;
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 736px) {
     height: 100vh !important;
     margin-top: 0 !important;
   }
@@ -45,7 +45,7 @@
     color: $white;
 
     font-size: rem-calc(48);
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 736px) {
       margin-bottom: rem-calc(40);
 
       font-size: rem-calc(22);
