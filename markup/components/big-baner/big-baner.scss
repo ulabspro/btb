@@ -1,5 +1,9 @@
 .big-baner {
   @extend .top-baner;
+  @media screen and (max-width: 480px) {
+    height: 100vh !important;
+    margin-top: 0 !important;
+  }
   &__image {
     @extend .top-baner__image;
   }
@@ -8,21 +12,19 @@
   }
   &__bottom {
     bottom: rem-calc(60);
+    @include horizontal-center;
 
     box-sizing: border-box;
     width: 100%;
     padding-right: rem-calc(60);
     padding-left: rem-calc(65);
-
     @media screen and (max-width: 480px) {
       bottom: inherit;
+      @include absolute-center;
 
       padding-right: rem-calc(30);
       padding-left: rem-calc(30);
-
-      @include absolute-center;
     }
-    @include horizontal-center;
   }
   &__category {
     margin-bottom: rem-calc(35);
@@ -31,7 +33,6 @@
 
     font-family: $Gilroy-Medium;
     font-size: rem-calc(24);
-
     @media screen and (max-width: 480px) {
       text-align: left;
 
@@ -44,7 +45,6 @@
     color: $white;
 
     font-size: rem-calc(48);
-
     @media screen and (max-width: 480px) {
       margin-bottom: rem-calc(40);
 

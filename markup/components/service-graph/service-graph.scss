@@ -152,6 +152,7 @@
       background-color: $orange;
     }
     @media screen and (max-width: 750px) {
+      z-index: 92;
       right: -263px;
       left: inherit;
       @include vertical-center;

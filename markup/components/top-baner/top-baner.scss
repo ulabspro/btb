@@ -7,6 +7,10 @@
   height: 100vh;
 
   background-color: $blue;
+  @media screen and (max-width: 480px) {
+    height: calc(100vh - 80px);
+    margin-top: 80px;
+  }
   &__image {
     @include absolute-center;
 
@@ -44,22 +48,32 @@
   }
   &__title {
     text-align: right;
+    text-transform: uppercase;
 
     color: $white;
 
-    font-family: $Gilroy-Medium;
-    font-size: rem-calc(28);
+    font-family: $Gilroy-Semibold;
+    font-size: rem-calc(24);
     @media screen and (max-width: 800px) {
       text-align: left;
     }
     @media screen and (max-width: 480px) {
-      font-size: rem-calc(16);
-    }
-    @media screen and (max-width: 320px) {
-      font-size: rem-calc(13);
+      display: none;
     }
     span {
       color: $orange;
+    }
+    &._mobile {
+      display: none;
+      @media screen and (max-width: 480px) {
+        display: block;
+
+        margin-left: rem-calc(30);
+
+        font-size: rem-calc(12);
+
+        order: 3;
+      }
     }
   }
   &__bottom {

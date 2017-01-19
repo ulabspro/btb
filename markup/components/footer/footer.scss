@@ -1,66 +1,62 @@
 .footer {
-  @media screen and (max-width: 480px) {
-    padding-top: rem-calc(60);
-    padding-right: rem-calc(30);
-    padding-left: rem-calc(30);
-  }
-
   padding-top: rem-calc(115);
   padding-bottom: rem-calc(50);
   padding-left: rem-calc(60);
 
   color: $white;
   background-color: $orange;
+  @media screen and (max-width: 480px) {
+    padding-top: rem-calc(60);
+    padding-right: rem-calc(30);
+    padding-left: rem-calc(30);
+  }
   &__title {
-    @media screen and (max-width: 480px) {
-      font-size: rem-calc(18);
-    }
-
     margin-bottom: rem-calc(55);
 
     font-family: $Gilroy-Semibold;
     font-size: rem-calc(24);
+    @media screen and (max-width: 480px) {
+      font-size: rem-calc(18);
+    }
   }
   &__copyright {
+    margin-top: rem-calc(340);
+
+    font-family: $Gilroy-Medium;
+    font-size: rem-calc(16);
+    line-height: 1;
     @media screen and (max-width: 1024px) {
       margin-top: rem-calc(150);
     }
     @media screen and (max-width: 480px) {
       margin-top: rem-calc(50);
     }
-
-    margin-top: rem-calc(340);
-
-    font-family: $Gilroy-Medium;
-    font-size: rem-calc(16);
-    line-height: 1;
   }
 }
 
 .footer-contacts {
-  @media screen and (max-width: 1024px) {
-    align-items: flex-start;
-  }
-
   display: flex;
 
   align-items: center;
   flex-wrap: wrap;
   justify-content: flex-start;
+  @media screen and (max-width: 1024px) {
+    align-items: flex-start;
+  }
   &__title {
-    @media screen and (max-width: 480px) {
-      font-size: rem-calc(22);
-      line-height: rem-calc(28);
-    }
-
     width: 100%;
     margin-bottom: rem-calc(25);
 
     font-family: $Gilroy-Semibold;
     font-size: rem-calc(24);
     line-height: 1;
+    @media screen and (max-width: 480px) {
+      font-size: rem-calc(22);
+      line-height: rem-calc(28);
+    }
   }
   &__column {
+    margin-right: 9.5%;
     @media screen and (max-width: 1024px) {
       margin-bottom: rem-calc(30);
     }
@@ -69,16 +65,13 @@
       margin-right: 0;
       margin-bottom: rem-calc(30);
     }
-
-    margin-right: 9.5%;
   }
   &__item {
+    font-size: rem-calc(24);
     @media screen and (max-width: 480px) {
       font-size: rem-calc(18);
       line-height: rem-calc(32);
     }
-
-    font-size: rem-calc(24);
     &:last-child {
       margin-right: 0;
     }
@@ -99,7 +92,7 @@
 
 .mask {
   position: fixed;
-  z-index: 98;
+  z-index: 94;
   top: 0;
   right: 0;
   bottom: 0;

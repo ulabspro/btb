@@ -5,15 +5,47 @@
 		[
 			[
 				"pad",
-				"padding-bottom"
+				"padding-right"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"fon",
+				"font-family\t(feedback.scss)"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"selec",
+				"selectize\t(feedback.js)"
+			],
+			[
+				"fee",
+				"feedback-form-select"
+			],
+			[
+				"marign",
+				"margin-top"
+			],
+			[
+				"ot",
+				"other-service__item"
+			],
+			[
+				"menu",
+				"menu-drop\t(menu.jade)"
 			],
 			[
 				"visi",
 				"visibility"
-			],
-			[
-				"marign",
-				"margin-left"
 			],
 			[
 				"resi",
@@ -44,10 +76,6 @@
 				"service-graph-item\t(service-graph.scss)"
 			],
 			[
-				"fon",
-				"font-size"
-			],
-			[
 				"service",
 				"service-graph-item"
 			],
@@ -58,10 +86,6 @@
 			[
 				"serv",
 				"service-graph"
-			],
-			[
-				"padd",
-				"padding"
 			],
 			[
 				"no",
@@ -126,10 +150,6 @@
 			[
 				"con",
 				"console.log"
-			],
-			[
-				"bac",
-				"background-color"
 			],
 			[
 				"text",
@@ -494,31 +514,29 @@
 			[
 				"smal",
 				"small-12"
-			],
-			[
-				"ak",
-				"ask-question-link"
-			],
-			[
-				"eas",
-				"ease-in-out"
-			],
-			[
-				"main",
-				"main-categories-list-item__text"
-			],
-			[
-				"tab",
-				"table-cell"
-			],
-			[
-				"inl",
-				"inline-block"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "markup/components/feedback/feedback.jade",
+			"settings":
+			{
+				"buffer_size": 1097,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "markup/components/feedback/feedback.scss",
+			"settings":
+			{
+				"buffer_size": 2301,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -594,42 +612,54 @@
 		"/Users/extiser/git/btb",
 		"/Users/extiser/git/btb/markup",
 		"/Users/extiser/git/btb/markup/components",
-		"/Users/extiser/git/btb/markup/components/left-side",
-		"/Users/extiser/git/btb/markup/components/service-graph",
+		"/Users/extiser/git/btb/markup/components/feedback",
 		"/Users/extiser/git/btb/markup/pages",
 		"/Users/extiser/git/btb/markup/static",
-		"/Users/extiser/git/btb/markup/static/scss"
+		"/Users/extiser/git/btb/markup/static/scss",
+		"/Users/extiser/git/btb/markup/static/scss/libraries",
+		"/Users/extiser/git/btb/markup/static/scss/plugins",
+		"/Users/extiser/git/btb/markup/static/scss/separate-css"
 	],
 	"file_history":
 	[
-		"/Users/extiser/git/svteam/sovets/protected/views/frontend/templates/article.php",
+		"/Users/extiser/git/btb/markup/static/scss/plugins/selectize.scss",
 		"/Users/extiser/git/btb/markup/components/service-graph/service-graph.jade",
-		"/Users/extiser/git/btb/markup/components/service-graph/service-graph.js",
 		"/Users/extiser/git/btb/markup/components/service-graph/service-graph.scss",
+		"/Users/extiser/git/btb/markup/components/feedback/feedback.jade",
+		"/Users/extiser/git/btb/markup/components/feedback/feedback.scss",
+		"/Users/extiser/git/btb/markup/components/other-service/other-service.jade",
+		"/Users/extiser/git/btb/markup/components/other-service/other-service.scss",
+		"/Users/extiser/git/btb/markup/components/service-list/service-list.scss",
+		"/Users/extiser/git/btb/markup/components/buro-text/buro-text.scss",
+		"/Users/extiser/git/btb/markup/components/feedback/feedback.js",
+		"/Users/extiser/git/btb/tars-config.js",
+		"/Users/extiser/git/btb/markup/pages/service.jade",
+		"/Users/extiser/git/btb/markup/pages/layout.jade",
+		"/Users/extiser/git/btb/markup/components/left-side/left-side.jade",
+		"/Users/extiser/git/btb/markup/components/menu/menu.jade",
+		"/Users/extiser/git/btb/markup/components/big-baner/big-baner.jade",
+		"/Users/extiser/git/btb/markup/components/menu/menu.scss",
 		"/Users/extiser/git/btb/markup/components/left-side/left-side.scss",
 		"/Users/extiser/git/btb/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/btb/markup/components/top-baner/top-baner.scss",
+		"/Users/extiser/git/btb/markup/components/top-baner/top-baner.jade",
+		"/Users/extiser/git/btb/markup/static/scss/common.scss",
+		"/Users/extiser/git/svteam/sovets/protected/views/frontend/templates/article.php",
+		"/Users/extiser/git/btb/markup/components/service-graph/service-graph.js",
 		"/Users/extiser/git/btb/markup/static/scss/vars.scss",
 		"/Users/extiser/git/btb/markup/components/folio-text/folio-text.scss",
 		"/Users/extiser/git/btb/markup/components/folio-title/folio-title.scss",
 		"/Users/extiser/git/btb/markup/components/footer/footer.scss",
-		"/Users/extiser/git/btb/markup/components/menu/menu.scss",
 		"/Users/extiser/git/btb/markup/components/partners/partners.scss",
 		"/Users/extiser/git/btb/markup/components/services/services.scss",
-		"/Users/extiser/git/btb/markup/components/top-baner/top-baner.scss",
 		"/Users/extiser/git/btb/markup/components/folio-main/folio-main.scss",
 		"/Users/extiser/git/btb/markup/components/big-baner/big-baner.scss",
 		"/Users/extiser/git/btb/markup/components/folio-item/folio-item.scss",
-		"/Users/extiser/git/btb/markup/pages/service.jade",
-		"/Users/extiser/git/btb/markup/pages/layout.jade",
-		"/Users/extiser/git/btb/markup/components/service-list/service-list.scss",
 		"/Users/extiser/git/btb/markup/components/service-list/service-list.jade",
-		"/Users/extiser/git/btb/markup/components/buro-text/buro-text.scss",
 		"/Users/extiser/git/btb/markup/static/scss/libraries/icons.scss",
 		"/Users/extiser/git/btb/markup/pages/index.jade",
 		"/Users/extiser/git/btb/markup/components/buro-text/buro-text.jade",
 		"/Users/extiser/git/btb/markup/components/services/services.jade",
-		"/Users/extiser/git/btb/markup/components/left-side/left-side.jade",
-		"/Users/extiser/git/btb/markup/components/top-baner/top-baner.jade",
 		"/Users/extiser/git/btb/markup/components/folio-project/folio-project.jade",
 		"/Users/extiser/git/btb/markup/components/folio-title/folio-title.jade",
 		"/Users/extiser/Library/Application Support/Sublime Text 3/Packages/CSScomb/CSScomb.sublime-settings",
@@ -637,9 +667,6 @@
 		"/Users/extiser/git/btb/markup/components/footer/footer.jade",
 		"/Users/extiser/git/btb/markup/components/folio-item/folio-item.jade",
 		"/Users/extiser/git/btb/markup/components/folio-main/folio-main.jade",
-		"/Users/extiser/git/btb/markup/components/big-baner/big-baner.jade",
-		"/Users/extiser/git/btb/markup/components/menu/menu.jade",
-		"/Users/extiser/git/btb/markup/static/scss/common.scss",
 		"/Users/extiser/git/btb/markup/static/scss/mixins.scss",
 		"/Users/extiser/git/btb/markup/pages/project.jade",
 		"/Users/extiser/git/btb/markup/components/folio-project/folio-project.scss",
@@ -652,7 +679,6 @@
 		"/Users/extiser/git/btb/markup/components/menu/menu.js",
 		"/Users/extiser/git/btb/markup/components/head/data/data.js",
 		"/Users/extiser/git/btb/markup/components/default_component_scheme.json",
-		"/Users/extiser/git/btb/tars-config.js",
 		"/Users/extiser/git/btb/markup/static/scss/fonts.scss",
 		"/Users/extiser/git/sovets-pro/markup/modules/top-login/top-login.scss",
 		"/Users/extiser/git/sovets-pro/markup/modules/single-content/single-content.scss",
@@ -723,13 +749,7 @@
 		"/Users/extiser/git/sovets-pro/markup/modules/article-block-small/article-block-small.scss",
 		"/Users/extiser/git/sovets-pro/markup/modules/show-more/show-more.jade",
 		"/Users/extiser/git/sovets-pro/markup/modules/single-ask/single-ask.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/single-ask/single-ask.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/single-top/single-top.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/footer/footer.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/footer/footer.scss",
-		"/Users/extiser/git/sovets-pro/markup/static/scss/plugins/slick.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/zodiac/zodiac.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/zodiac/zodiac.jade"
+		"/Users/extiser/git/sovets-pro/markup/modules/single-ask/single-ask.jade"
 	],
 	"find":
 	{
@@ -750,6 +770,14 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"$large",
+			"medium",
+			"mediun",
+			":before",
+			"group",
+			"text",
+			"after",
+			":before",
 			"title",
 			"_inside",
 			"._top",
@@ -869,15 +897,7 @@
 			".hide-mobile",
 			"h1",
 			"1",
-			"ul",
-			".hide",
-			"#SkypeButton_Call_vageik_1",
-			"__block",
-			"row",
-			".row",
-			"unisans",
-			".small-article",
-			"a(href=\"#\" "
+			"ul"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -885,6 +905,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"$x-large",
 			"max-width: 870px",
 			"(max-width: 1440px)",
 			"@media screen and (max-width: 1700px)",
@@ -1011,8 +1032,7 @@
 			"option",
 			"",
 			".pagination__item",
-			"order-by",
-			"/images/"
+			"order-by"
 		],
 		"reverse": false,
 		"show_context": false,
@@ -1023,8 +1043,71 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "markup/components/feedback/feedback.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1097,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "markup/components/feedback/feedback.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2301,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								418,
+								418
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 216.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
